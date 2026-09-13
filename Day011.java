@@ -28,23 +28,17 @@ public class App {
         short tahunlahir = in.nextShort();
         System.out.println("Tahun Lahir Anda Adalah: " + tahunlahir);
 
-        System.out.print("Masukkan Tahun Sekarang: ");
-        long tahunsekarang = in.nextLong();
+        System.out.print("Masukkan Tahun Sekarang: ");                          long tahunsekarang = in.nextLong();
         System.out.println("Tahun Sekarang Adalah: " + tahunsekarang);
 
         System.out.print("Masukkan Jenis Kelamin: ");
         char L = in.next().charAt(0);
         System.out.println("Jenis Kelamin Anda Adalah: " + L);
 
-        System.out.print("Apakah saya dosen: ");
+        System.out.print("Apakah saya dosen (true/false): ");
         boolean Dosen = in.nextBoolean();
-
-        if (Dosen == true) {
-            System.out.println("Saya dosen");
-        } else {
-            System.out.println("Saya bukan dosen");
-        }
-
+        System.out.println("Saya bukan dosen: "+Dosen);
+        System.out.println("Saya dosen: "+false);
         in.close();
     }
 }

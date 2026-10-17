@@ -11,7 +11,7 @@ public class day46 {
         
         switch (menu) {
 	case 1 : 
-		  System.out.println("Nasgor Goreng");
+		  System.out.println("Nasi Goreng");
 		break;
             case 2 : 
 		  System.out.println("Bakso");
@@ -23,7 +23,7 @@ public class day46 {
 		  System.out.println("Soto");
 		break;
             case 5 : 
-		  System.out.println("Naskun Kuning");
+		  System.out.println("Nasi Kuning");
 		break;
 
 	default:

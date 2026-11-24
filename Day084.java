@@ -12,7 +12,7 @@ public class day84 {
         System.out.println("Masukkan " + n + " nilai:");
         for (int i = 0; i < n; i++) {
             System.out.print("Nilai ke-" + (i + 1) + ": ");
-            a[i] = scanner.nextInt();
+            a[i] = sc.nextInt();
         }
         int b = a[0];
         for (int i = 1; i < a.length; i++) {
